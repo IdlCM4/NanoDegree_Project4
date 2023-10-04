@@ -1,4 +1,6 @@
-<include a CircleCI status badge, here>
+[![IdlCM4](https://circleci.com/gh/irinadelacorte@gmail.com/NanoDegree_Project4.svg?style=svg)](https://app.circleci.com/pipelines/circleci/XqgHvWAk6M7wq1Co6bdyYt/JJE1boYb9qGGfpDwctAdcm/6/workflows/2c8f14ff-cd06-4d01-89a7-719853719df4)
+
+
 
 ## Project Overview
 
@@ -48,3 +50,7 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+
+
+
