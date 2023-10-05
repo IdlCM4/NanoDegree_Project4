@@ -25,7 +25,7 @@ There are 3 ways of creating a Badge:
       and this is the result:  
       [![cci-lra36](https://circleci.com/gh/cci-lra36/NanoDegree_Project4/tree/main.svg?style=svg)](https://app.circleci.com/pipelines/circleci/XqgHvWAk6M7wq1Co6bdyYt/JJE1boYb9qGGfpDwctAdcm?branch=main)
 
-      As you can see, it doesn't show the "passed" badget and the url doesn't weork either.
+      As you can see, it doesn't show the "passed" badget and the url doesn't work either.
 
 
 3. Badge for private repositories:  
@@ -42,7 +42,7 @@ There are 3 ways of creating a Badge:
 
       Doesn't work either.
 
-4. There is another way to generate and inglude a badge. You have to go to the project -> click on "Project settings" and on the left menu go to Status Bades.
+4. There is another way to generate and include a badge. You have to go to the project -> click on "Project settings" and on the left menu go to Status Bades.
 
     ![CircleCI Repo](badge/ProjectStatusBadge.PNG)
 
