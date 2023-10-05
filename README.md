@@ -52,19 +52,19 @@ source .devops/bin/activate
 
 ### Files
 
-`.circlecio/config.yml` You can find the  CircleCI configuration in this file.
-`.devops` The environment where we'll install all the packages.
-`model_data` This is the trained model data.
-`output_txt_files` This is where Kubernetes og output is stored.
-`DockerFile` Contains the application and its dependencies.
-`Makefile` This is the build file of the proyect.
-`app.py` Here you can find the REST endpoint for predicting housing prices.
-`docker_out.txt` This is the Docket log output.
-`make_predintion.sh` With this file you call predictions REST endpoint and simulates a sample prediction.
-`requirements.txt`  Here are the python requirements.
-`run_docker.sh` This is the shell spript to create and run docker container.
-`run_kubernetes.sh` This is the shell script to deploy docker container on Kubernetes cluster.
-`upload_docker.sh` This is the shell script to upload locally built docker image to your Docker Hub repo.
+`.circlecio/config.yml` You can find the  CircleCI configuration in this file.  
+`.devops` The environment where we'll install all the packages.  
+`model_data` This is the trained model data.  
+`output_txt_files` This is where Kubernetes og output is stored.  
+`DockerFile` Contains the application and its dependencies.  
+`Makefile` This is the build file of the proyect.  
+`app.py` Here you can find the REST endpoint for predicting housing prices.  
+`docker_out.txt` This is the Docket log output.  
+`make_predintion.sh` With this file you call predictions REST endpoint and simulates a sample prediction.  
+`requirements.txt`  Here are the python requirements.  
+`run_docker.sh` This is the shell spript to create and run docker container.  
+`run_kubernetes.sh` This is the shell script to deploy docker container on Kubernetes cluster.  
+`upload_docker.sh` This is the shell script to upload locally built docker image to your Docker Hub repo.  
 
 
 
