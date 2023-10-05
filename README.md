@@ -1,5 +1,4 @@
-[![cci-ira36](https://circleci.com/gh/cci-ira36/NanoDegree_Project4.svg?style=svg)](https://app.circleci.com/pipelines/circleci/XqgHvWAk6M7wq1Co6bdyYt/JJE1boYb9qGGfpDwctAdcm/8/workflows/93ff2c86-cbcb-46e8-93e3-75bad5a06cba)
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/XqgHvWAk6M7wq1Co6bdyYt/JJE1boYb9qGGfpDwctAdcm/tree/main.svg?style=svg&circle-token=c385481d32c6a28264a1e8cf5cb927975c742d5b)](https://dl.circleci.com/status-badge/redirect/circleci/XqgHvWAk6M7wq1Co6bdyYt/JJE1boYb9qGGfpDwctAdcm/tree/main)
 
 
 ## Project Overview
@@ -51,6 +50,21 @@ source .devops/bin/activate
 * Create Flask app in Container
 * Run via kubectl
 
+### Files
+
+`.circlecio/config.yml` You can find the  CircleCI configuration in this file.
+`.devops` The environment where we'll install all the packages.
+`model_data` This is the trained model data.
+`output_txt_files` This is where Kubernetes og output is stored.
+`DockerFile` Contains the application and its dependencies.
+`Makefile` This is the build file of the proyect.
+`app.py` Here you can find the REST endpoint for predicting housing prices.
+`docker_out.txt` This is the Docket log output.
+`make_predintion.sh` With this file you call predictions REST endpoint and simulates a sample prediction.
+`requirements.txt`  Here are the python requirements.
+`run_docker.sh` This is the shell spript to create and run docker container.
+`run_kubernetes.sh` This is the shell script to deploy docker container on Kubernetes cluster.
+`upload_docker.sh` This is the shell script to upload locally built docker image to your Docker Hub repo.
 
 
 
