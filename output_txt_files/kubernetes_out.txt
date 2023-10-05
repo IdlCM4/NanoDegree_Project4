@@ -2,3 +2,10 @@ NAME           READY   STATUS    RESTARTS   AGE
 housingprice   1/1     Running   0          20h
 Forwarding from 127.0.0.1:8080 -> 80
 Forwarding from [::1]:8080 -> 80
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
